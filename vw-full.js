@@ -1,37 +1,3 @@
-
-
-Share
-Voici le lien du forum https://formspree.io/f/xojzaoyy
-Parfait ! J'intègre l'URL Formspree dans le widget et je génère le nouveau vw-full.js.
-
-Voici le nouveau vw-full.js — il contient la photo de Nicolas + l'envoi automatique à nicolas@v-immo.be via Formspree.
-Une seule action à faire
-Sur GitHub → widget-immo → cliquez vw-full.js → crayon ✏️ → Ctrl+A pour tout sélectionner → Supprimer → coller le contenu de ce fichier → Commit changes
-Attendez 2-3 minutes que jsDelivr mette à jour le cache, puis testez sur le site.
-Ce qui se passe maintenant
-Quand un visiteur remplit le widget et clique "Obtenir mon estimation" :
-Nicolas reçoit un email à nicolas@v-immo.be avec toutes les infos :
-Nom, email, téléphone
-Type de bien, adresse, surface, chambres
-PEB, état, finition, chauffage, façades
-Détails supplémentaires
-Fourchette d'estimation + prix au m²
-La photo de Nicolas apparaît à la place du "N" dans le widget
-Pour vider le cache jsDelivr si ça ne se met pas à jour
-Allez sur : https://purge.jsdelivr.net/gh/petitprinceth/widget-immo@main/vw-full.js
-vw-full.js
-Code · 30.44 KB
-View all files in this task
-Task completed
-How was this result?
-Suggested follow-ups
-
-
-GmailGoogle DriveInstagram
-+1
-
-
-vw-full.js
 (function(){
 var CFG={
   favicon:'https://d1oytcss5issfa.cloudfront.net/favicons/v-immo-favicon.png',
@@ -148,5 +114,3 @@ if(document.readyState!=='loading'){
   setTimeout(function(){var t=document.getElementById('vwt');if(t)t.style.display='none';},6000);
 }
 })();
-✕
-Logiciel d'estimation de bien inspiré d'un widget existant - Manus
